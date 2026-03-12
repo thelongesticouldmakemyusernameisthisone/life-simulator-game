@@ -1,2 +1,5 @@
-let canvas = document.getElementById("gameCanvas");
-let ctx = canvas.getContext("2d");
+function setup(){
+  createCanvas(800,600);
+}
+var player = createSprite(200,200);
+drawSprites();
